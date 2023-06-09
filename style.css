@@ -50,6 +50,10 @@
     align-items: center;
     padding: 0px 20px 0px 20px ;
 }
+.contents{
+    font-family: Arial,  sans-serif;
+    font-size: 11.25px;
+}
 .discoverContainer{
     margin-top: 50px;
     /* border: solid black; */
@@ -59,14 +63,14 @@
     align-items: center;
     height: 37vh;
 }
-.disTitle{
+.disTitle,.styleTitle{
     font-size: 46px;
     font-family: Arial,sans-serif ;
     font-weight: bolder;
 }
 .disText{
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     padding: 20px;
     font-family: Arial,  sans-serif;
 }
@@ -110,35 +114,118 @@
     
 }
 .stayRad{
-    border: solid black;
+    /* border: solid black; */
    /* width: 50%; */
    margin:0px 20px 0px 320px;
 }
 .featLove{
     height: 20vh;
- border: solid black;
+ /* border: solid black; */
  margin-right: 25px ;
 }
 .featDonald{
-    border: solid black;
+    /* border: solid black; */
 margin-right: 225px;
 }
 .textDeats1{
 font-size: 12px;
 font-family: Arial;
+margin: 15px;
 }
 .textDeats2{
     font-size: 22px;
     font-family: Arial;
     font-weight: bold;
+    margin: 15px;
 }
 .textDeats3{
-    font-size: 16px;
+    font-size: 19px;
     font-family: Arial;
+    margin: 15px;
 }
-.textDeat4{
+.textDeats4{
     font-size: 12px;
     font-family: Arial;
-    text-decoration: underline;
+    text-decoration: underline  pink;
+    margin: 15px;
+}
+.textDeats5{
+    font-size: 14px;
+    font-family: Arial;
+    margin: 15px;   
+}
+.weThinkContainer{
+    font-size: 22px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-left: 100px;
+    margin-top: 90px;
+}
+.jeweleryContainer{
+    /* border: solid black; */
+    display: flex;
+    height: 38vh;
     
+}
+.styleContainer{
+    
+    /* border: solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 37vh;
+    
+}
+.disMore{
+    background-color: black;
+    color: white;
+    height: 38px;
+    padding: 0px 24px 0px 24px;
+    
+    
+}
+
+.styleImgContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.style{
+    height: 400px;
+    width: 400px;
+}
+.sustainContainer{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 50vh;
+}
+.sust{
+    height: 350px;
+    width: 550px;
+    padding: 25px;
+}
+.sust1{
+    height: 550px;
+    padding: 35px 25px 0px 20px  ;
+}
+.explorePan{
+    margin: 80px 0px 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 28px;
+    font-family: Arial,sans-serif ;
+    font-weight: bolder;  
+}
+.explorePanContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exploreImg{
+    text-align: center;
+}
+.ex{
+    height: 255px;
+    width: 255px;
 }
