@@ -50,3 +50,95 @@
     align-items: center;
     padding: 0px 20px 0px 20px ;
 }
+.discoverContainer{
+    margin-top: 50px;
+    /* border: solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 37vh;
+}
+.disTitle{
+    font-size: 46px;
+    font-family: Arial,sans-serif ;
+    font-weight: bolder;
+}
+.disText{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    font-family: Arial,  sans-serif;
+}
+.featuredBar{
+    display: flex;
+    justify-content: center;
+    font-family: Arial,  sans-serif;
+    font-size: 15px;
+}
+.featContent{
+    padding-left: 20px;
+}
+.featuredContainer{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 28px;
+    font-family: Arial,sans-serif ;
+    font-weight: bolder;
+    /* margin: 20px 300px 0px 0px; */
+}
+.feat,.mPop{
+    margin: 20px 350px 0px 0px;
+}
+.rad{
+   height: 690px;
+   width: 600px;
+}
+.Don{
+    height: 350px;
+    width: 250px;
+
+}
+.love{
+    height: 350px;
+    width: 250px;
+}
+.featImgContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.stayRad{
+    border: solid black;
+   /* width: 50%; */
+   margin:0px 20px 0px 320px;
+}
+.featLove{
+    height: 20vh;
+ border: solid black;
+ margin-right: 25px ;
+}
+.featDonald{
+    border: solid black;
+margin-right: 225px;
+}
+.textDeats1{
+font-size: 12px;
+font-family: Arial;
+}
+.textDeats2{
+    font-size: 22px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.textDeats3{
+    font-size: 16px;
+    font-family: Arial;
+}
+.textDeat4{
+    font-size: 12px;
+    font-family: Arial;
+    text-decoration: underline;
+    
+}
