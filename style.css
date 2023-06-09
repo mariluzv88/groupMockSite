@@ -198,7 +198,10 @@ margin: 15px;
     background-color: black;
     color: white;
     display: flex;
-    height: 50vh;
+    justify-content: center;
+    height: 65vh;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 60px 0px 60px;
 }
 .sust{
     height: 350px;
